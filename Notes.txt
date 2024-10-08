@@ -1,0 +1,98 @@
+Day-1; 
+09/06/2024
+
+Java is typed lang
+
+--Boiler Plate of Java:
+	
+	public class first(not : the name of class must be same as file name){
+		public static main(String args[]){
+			//the code will be written here
+		}
+	}
+
+--Output in Java:
+
+	System.out.print();
+	//If you want to line space in output terminal then you have to use 	 	 		[System.out.println] or [System.out.print("\n")]
+
+--Input input in Java:
+	
+	import java.util.*;
+
+	public class input {
+
+    		public static void main(String atgs[]) {
+        	Scanner sc = new Scanner(System.in);
+        	String input = sc.next();
+			//it can only stor one word or only without space word
+
+        	System.out.println(input);
+
+    		}
+	}
+		
+	next();//for storing one word or without space 
+	nextLine();//for storing full lin with space 
+	nextInt();//for sotoring integer
+	nextDouble();//for storing double value
+	nextFloat();
+	nextBoolean();
+	nextShort();
+	nextByte();
+	nextLong();etc
+
+	
+--Comment in java:
+
+	Single line comment = //this is single line comment
+	Multiline comment = /* this is multiline comment */
+
+--Variable declaration:
+
+	Syntex - type variableName = value;
+	int a = 10;
+	where,	
+		a = variable name // they also known as Identifiers 
+		int = variables type
+		"=" = operator
+		'10' = actual value of variable
+
+--Variables in Java:
+	 a variable is type of container which can store the data values
+
+--DataTypes in Java:
+
+	--Primitive:
+
+		- byte //size - 1 byte(8bit) 
+			Range [-128 to 127],256 no in byte we can't stor 130,140etc
+
+		- short //size - 2 byte(16bit) 
+			Range []
+		- char //size - 2 byte(16bit) 
+			we can store ['a' to 'z','A' to 'Z', Special charecters like '@','$' etc]
+		
+		- boolean //size - 1 byte(8bit) 
+			we can store only [True or False]
+
+		- int //size - 4 byte(32bit) 
+			we can store [-2 Billion to +2 Billions number]
+	
+		- long //size - 8 byte(64bit) 
+			we can store []
+
+		- float //size - 4 byte(32bit) 
+			we can store [decimal numbers]
+
+		- double //size - 8 byte(64bit) 
+			we can store [greater then float decimal numbers] 
+
+	--Non-Primitive:
+
+		String,
+		Array,
+		class,
+		Object,	
+		Interface
+	--
